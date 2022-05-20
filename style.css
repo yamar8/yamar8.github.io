@@ -1,0 +1,71 @@
+.body {
+
+}
+#board{
+
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  min-height: 100vh;
+}
+h1 {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgba(240, 13, 13, 0.728); */
+  /* text-decoration: underline; */
+}
+/* #board {
+background-color: rgba(255, 127, 80, 0.244);
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  padding: 50px;
+} */
+
+.cards{
+  background-color: rgba(231, 15, 15, 0.728);
+  height: 140px;
+  width: 140px; 
+  min-width: 140px;
+  max-width: 140px;
+  margin: 5px;
+  font-size: 100px;
+  text-align: center;
+  border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(101, 0, 0);
+
+}
+
+.input{
+
+
+}
+
+ .cards:hover {
+    background-color: rgb(255, 171, 171);
+    cursor: pointer;
+}
+
+.color{
+  color: blue;
+}
+
+#playerForm{
+  
+
+
+}
+#playerForm h1{
+color: blueviolet;
+
+}
+
+#playerForm h2{
+
+}
+#trun{
+  
+
+}
